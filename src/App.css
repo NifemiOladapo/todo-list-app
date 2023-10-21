@@ -1,0 +1,150 @@
+/* .app {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app>.main__card {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    gap: 20px;
+}
+
+.app>.main__card>button {
+    border-width: 0;
+    outline-width: 0;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.app>.main__card>.todos {
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app>.main__card>.todos>.a_todo {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.app>.main__card>.todos>.a_todo>p {
+    width: 40%;
+    background-color: red;
+    background-color: pink;
+}
+
+.app>.main__card>.todos>.a_todo>.icons__wrapper {
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    width: 25%;
+    gap: 10px;
+}
+
+
+@media(max-width : 900px) {
+    .icons__wrapper {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .a_todo {
+        flex-direction: column;
+        gap: 10px;
+    }
+} */
+
+/* App.css */
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main__card {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    gap: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main__card > button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .main__card .todos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main__card .todos .a_todo {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 15px;
+    justify-content: space-between;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main__card .todos .a_todo > p {
+    flex-grow: 1;
+    margin: 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .main__card .todos .a_todo .icons__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  @media (max-width: 900px) {
+    .main__card .todos .a_todo {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
